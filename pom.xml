@@ -95,20 +95,19 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.26.2.28:9980/mithuntechnologies/repository/wallmart-release/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.26.2.28:9980/mithuntechnologies/repository/wallmart-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
+		    
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>flipkart snapshot repository</name>
+      <url>http://65.0.124.33:9980/udayprojects/repository/flipkart-snapshot/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus</id>
+     <name>flipkart release repository</name>
+      <url>http://65.0.124.33:9980/udayprojects/repository/flipkart-release/</url>
+    </repository>
+    
+</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
