@@ -99,12 +99,12 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>flipkart snapshot repository</name>
-      <url>http://13.233.120.140:9980/udayprojects/repository/flipkart-snapshot/</url>
+      <url>65.0.32.52:9980/udayprojects/repository/flipkart-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
      <name>flipkart release repository</name>
-      <url>http://13.233.120.140:9980/udayprojects/repository/flipkart-release/</url>
+      <url>http://65.0.32.52:9980/udayprojects/repository/flipkart-release/</url>
     </repository>
     
 </distributionManagement>
