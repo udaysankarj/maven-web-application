@@ -99,7 +99,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>flipkart snapshot repository</name>
-      <url>65.0.32.52:9980/udayprojects/repository/flipkart-snapshot/</url>
+      <url>http://65.0.32.52:9980/udayprojects/repository/flipkart-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
